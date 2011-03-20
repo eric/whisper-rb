@@ -1,0 +1,4 @@
+.bundle
+*.wsp
+Gemfile.lock
+*.pyc
