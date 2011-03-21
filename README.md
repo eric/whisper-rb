@@ -21,7 +21,7 @@ The easiest way to install Whisper-rb is with RubyGems:
 
 Whisper-rb is available on GitHub, which can be browsed at:
 
-http://github.com/eric/whisper-rb
+<http://github.com/eric/whisper-rb>
 
 and cloned with:
 
