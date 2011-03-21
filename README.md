@@ -25,6 +25,8 @@ The easiest way to install Whisper-rb is with RubyGems:
     => #<Whisper::Database:0x101ec7a00 @path="metric.wsp">
     >> d.update(rand(1000))
     => None
+    >> d.fetch((Time.now - 100).to_i)
+    => ((1300665760, 1300665860, 10), [None, None, None, None, None, None, None, None, 475.0, None])
     >>
 
 
