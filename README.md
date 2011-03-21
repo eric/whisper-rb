@@ -3,10 +3,11 @@
 [Whisper][] is a python implementation of a reimagined rrdtool database created
 as part of the [Graphite][] project.
 
-Whisper-rb is a Ruby wrapper on python implementation using rubypython.
+Whisper-rb is a Ruby wrapper on python implementation using [rubypython][].
 
 [Whisper]: http://graphite.wikidot.com/whisper
 [Graphite]: http://graphite.wikidot.com/
+[rubypython]: http://rubypython.rubyforge.org/
 
 
 # Installation
