@@ -8,13 +8,24 @@ Whisper-rb is a Ruby wrapper on python implementation using rubypython.
 [Whisper]: http://graphite.wikidot.com/whisper
 [Graphite]: http://graphite.wikidot.com/
 
-# Requirements
 
 # Installation
 
 The easiest way to install Whisper-rb is with RubyGems:
 
     $ [sudo] gem install whisper
+
+
+# Usage
+
+
+    >> require 'whisper'
+    => true
+    >> d = Whisper::Database.create('metric.wsp', [[10, 1000]])
+    => #<Whisper::Database:0x101ec7a00 @path="metric.wsp">
+    >> d.update(rand(1000))
+    => None
+    >>
 
 
 # Source
